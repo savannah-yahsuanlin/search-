@@ -1,0 +1,32 @@
+body {
+  font-family: verdana;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav .selected {
+  background-color: dodgerBlue;
+  color: cornSilk;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 25%;
+}
+
+form > * {
+  margin: 1rem;
+}
+
+form div {
+  display: flex;
+}
+
+form div > * {
+  flex: 1;
+}
